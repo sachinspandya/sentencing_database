@@ -1,0 +1,39 @@
+---
+title: "Sentencing Database - DRAFT"
+subtitle: "Script for 9/28 presentation to CT Sentencing Commision"
+author: Sachin S. Pandya
+---
+
+So, it's 2009. January. [ ] She's governor. [ ] He's starting a new job. [ ] Over 20 States have their own sentencing commissions. And a body called [ ] the Connecticut Sentencing Task Force has just recommeded to the Legislature that Connecticut should have one, too -- not for sentencing guidlines -- but to meet the need for "rational, data-driven sentencing policy."
+
+For this new Commission's _duties_, the Task Force recommends the first one as this [ ]: a Sentencing database [ ] drawing on relevant data collected by multiple agencies [] and new data, too [] -- to enable the Commission "follow" an offender "throughout the entire system from arrest to post-release supervision," rather the relying on "agency-by-agency" reports. The idea: With this kind of _individual-level_ data at its fingertipts, the Commission would have [ ] the "advanced data capacity" to really support data-driven sentencing policy.
+
+[ ] 2010. The Legislature creates the Commission. For this new Commission's _duties_, the first on the list: It _shall_ [ ] build a sentencing database. [ ] And then use it.
+
+[ ] So, fast forward. 2015.  The Commission is about preschool age. But, no sentencing database, though [ ] it is now part of the Commission's just-approved strategic action plan.
+
+Today. 2023. The Commission's a young teenager. [ ] Same statute. But [ ] still no sentencing database.  
+
+The why isn't clear. But the cost is [  ]. Every time the Commission gets a question, Commission staff has to enter into ad-hoc case-by-case data sharing agreements with agencies just to get the data they need. That burns time and effort -- on both sides. And that setup means Commission staff can't conduct _exploratory_ or time-sensitive data analysis on their own. In short, when it comes to the Commission's own data capacity, it's as if we're back in 2009.
+
+So, [ ] build that database. But, doing it right requires, well, a data-driven approach  -- to identify in advance the technical and socio-legal challenges to doing so, in light of what key stakeholders want a sentencing database to be able to do.
+
+[] The research project [ ] is to do just that. 
+
+Talk to the key stakeholders and ask them about their beliefs and experiences about the challenges to building a sentencing database and possible solutions, including:
+
+[] securing long-term data-sharing agreements, consistent with the law [ ] [ ] [ ]
+
+[] getting _updated_ data on a regular basis
+
+[] designing a user interface for exploratory data analysis
+
+[] securing skilled personnel to help the commission use the database
+
+[] deciding database access [ ] consistent with the statute; and
+
+[] learn from the experiences of other State sentencing commissions with similar statutory authority.
+
+[ ] The research method: semi-structured interviews with stakeholders in Connecticut and other States with plausibly-similar commission database authority.  The interviews will be voluntary, confidential, and de-identified pursuant to an IRB-approved research protocol.  And we'll report back what we find to you.
+
+Questions [ ].

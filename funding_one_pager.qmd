@@ -1,0 +1,19 @@
+---
+title: "Challenges to Building Criminal Sentencing Databases for State Sentencing Commissions"
+author:
+- name: Sachin S. Pandya
+  orcid: 0000-0001-7387-1307
+- name:  Vaughn J. Crichlow
+  orcid: 0000-0001-7515-0095
+- name: Alex Tsarkov
+abstract: > 
+  This is a DRAFT one-page description of a research design for use to develop a narrative for funding applications.
+format: docx
+---
+
+This research project aims to leverage the past experience of State sentencing commissions to design and build a sentencing database for the Connecticut Sentencing Commission to use for evidence-based criminal-justice policy analysis. Although the Connecticut Legislature in 2010 required that Commission to build a "state-wide sentencing database in collaboration with state and local agencies, in 2023, over a decade later, no such database exists. The Commission has largely relied on bespoke case-by-case data sharing agreements with the Connecticut Judicial Branch and other government agencies This approach has created long delays for Commission research projects and inhibits exploratory data analysis by Commission staff.
+
+The project proceeds in two phases.  In phase 1, we conduct semi-structured interviews with stakeholders to identify the types of technical and socio-legal challenges faced by State sentencing commissions inside and outside Connecticut when developing and maintaining a criminal sentencing database. External stakeholder interviews will focus on sentencing commissions with parallel database authority in New Mexico, North Carolina, Nevada, and other States. Possible challenges include inter-agency trust needed for long-term data-sharing agreements; database features that enable exploratory data analysis by commission staff; and securing skilled personnel to help commission staff use the database to answer particular policy questions.
+
+In phase 2, we build a sentencing database for the Connecticut Sentencing Commission, drawing on lessons based the interviews from phase one. Phase 2 will involve (1) drafting a template long-term inter-agency data-sharing agreement; (2) protocols for database use by external university researchers hired by the Commission; (3) standards for data documentation; (4) protocols for securing and regularly updating the database; and (5) ensuring minimum database equipment and features, including data fields and a user interface to facilitate exploratory data analysis.
+

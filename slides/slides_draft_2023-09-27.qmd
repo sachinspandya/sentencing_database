@@ -1,0 +1,220 @@
+---
+title: "Sentencing Database"
+subtitle: "CT Sentencing Commission"
+author:
+- name:  Vaughn J. Crichlow
+  orcid: 0000-0001-7515-0095
+  affiliation: UConn - Institute for Municipal \& Regional Policy
+- name: Sachin S. Pandya
+  orcid: 0000-0001-7387-1307
+  affiliation: UConn - Law School
+date: "Sept. 28, 2023"
+format: 
+  revealjs:
+    theme: dark
+    embed-resources: true
+    scrollable: false
+---
+
+
+# 2009 {background-color="blue"}
+
+#
+
+![Jodi Rell](Jodi-Rell.jpg){#fig-rell}
+
+# 
+
+![Barack Obama](President_Barack_Obama.jpg){#fig-obama}
+
+#
+
+![State Sentencing Commissions, 2009](state_map_2009_fig.png){#fig-statemap}
+
+# Connecticut Sentencing Task Force
+
+## Task Force Recommendation 
+
+>The Commission shall perform the following duties: (1) Facilitate the development and maintenance of a statewide sentencing database in collaboration with existing state and local agencies. . . . .
+
+[Task Force Report (2009, App. A)](https://www.ct.gov/ctsc/lib/ctsc/Final_Report_01-26-09.pdf).
+
+## Task Force Recommendation 
+
+>One of the primary tasks of the Commission will be to develop an extensive sentencing database. The sentencing database will draw on information collected by other state agencies (e.g. Department of Correction, Board of Parole and Pardons, Court Operations Division) . . . 
+
+Task Force Report (2009, p. 10).
+
+## Task Force Recommendation 
+
+>in addition to collecting _new_ offender-specific sentencing information, such as plea information and prior criminal history, which currently is not easily accessible.
+
+Task Force Report (2009, p. 10).
+
+## Task Force Recommendation 
+
+>Once completed, the database will enable the state to follow the offender throughout the entire system, from arrest to post-release supervision, rather than the agency-by-agency approach that is currently in place.
+
+Task Force Report (2009, p. 10).
+
+## Task Force Recommendation
+
+>[T]he data collected will gather information at the individual level rather than
+aggregate information . . . . For example, with individual level data, the Commission will be able to determine the number of offenders convicted of burglary in the second degree who are drug-dependent and have previous histories of violence who are incarcerated in state
+correctional facilities.
+
+Task Force Report (2009, p. 10).
+
+## Task Force Recommendation 
+
+>The Commission will use its advanced data capacity to inform sentencing policy decisions, gauge the fiscal impact of proposed legislation, help judges determine the appropriate factors to be relied upon in imposing sentences and conduct evaluations of policies and programs.
+
+Task Force Report (2009, p. 10).
+
+# 2010 {background-color="blue"}
+
+## Public Act 10-129
+
+::: {.r-fit-text}
+
+`(f) The commission shall:`
+
+`(1) Facilitate the development and maintenance of a state-wide sentencing database in collaboration with state and local agencies, using existing state databases or resources where appropriate` . . . 
+
+[.](https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&which_year=2010&bill_num=5248)
+
+:::
+## Public Act 10-129
+
+`(g) Upon completing the development of the state-wide sentencing database pursuant to  `[section f(1)]`, the commission shall review criminal justice legislation as requested and as resources allow.`
+
+# 2015 {background-color="blue"}
+
+:::{.incremental}
+
+ - no sentencing database
+
+:::
+
+## Strategic Action Plan
+
+>Objective 3.1: Build data capacity and create a state-wide sentencing database.
+
+  >Strategy: Identify datasets needed to accomplish Commission mission, initiatives, and legislative mandates.
+
+  >Strategy: Develop a framework for obtaining, housing, analyzing, and publishing said data.
+
+Commission Annual Report 2015, p. 27.
+
+# 2023 {background-color="blue"}
+
+## Conn. Gen. Stat. § 54-300
+
+`(f) The commission shall:`
+
+`(1) Facilitate the development and maintenance of a state-wide sentencing database in collaboration with state and local agencies, using existing state databases or resources where appropriate` . . . .
+
+## Conn. Gen. Stat. § 54-300
+
+`(g) Upon completing the development of the state-wide sentencing database pursuant to  `[section f(1)]`, the commission shall review criminal justice legislation as requested and as resources allow.`
+
+## Costs
+
+Ad hoc case-by-case data-sharing agreements with agencies:
+
+1. lost staff time and resources in securing already-collected data
+2. can't conduct exploratory data analysis on its own
+
+## Target
+
+Build the Commission sentencing database.
+
+- Data pipelines to already collected by DOCS, CSSD, Court Operations, other agencies
+- User interface for targeted and exploratory data analysis by Commission staff.
+- Parameterized reporting
+
+# Research Project {background-color="green"}
+
+## Research Questions
+
+What do key stakeholders believe are the technical and socio-legal challenges to
+
+## {.larger}
+
+1. long-term data-sharing agreements with other government agencies that regularly collect and compile relevant data?
+
+##
+
+::: {.r-fit-text}
+
+`(i) The commission shall have access to confidential information received by sentencing courts and the Board of Pardons and Paroles including, but not limited to, arrest data, criminal history records, medical records and other nonconviction information.`
+
+[Conn. Gen. Stat. § 54-300](https://www.cga.ct.gov/current/pub/chap_970.htm#sec_54-300)
+
+:::
+
+##
+
+::: {.r-fit-text}
+
+`(j) The commission shall obtain full and complete information with respect to programs and other activities and operations of the state that relate to the criminal sentencing structure in the state.`
+
+[Conn. Gen. Stat. § 54-300](https://www.cga.ct.gov/current/pub/chap_970.htm#sec_54-300)
+
+:::
+
+##
+
+::: {.r-fit-text}
+
+`(k) The commission may request any office, department, board, commission or other agency of the state or any political subdivision of the state to supply such records, information and assistance as may be necessary or appropriate in order for the commission to carry out its duties. Each officer or employee of such office, department, board, commission or other agency of the state or any political subdivision of the state is authorized and directed to cooperate with the commission and to furnish such records, information and assistance.`
+
+[Conn. Gen. Stat. § 54-300](https://www.cga.ct.gov/current/pub/chap_970.htm#sec_54-300)
+
+:::
+
+
+## {.larger}
+	
+2. regularly and securely obtaining _updated_ information from those agencies?
+
+## {.larger}
+	
+3. building a database user interface to enable exploratory data analysis by commission staff?
+	
+## {.larger}
+	
+4. securing skilled personnel to help commission staff use the sentencing database?
+
+## {.larger}
+
+5. 	determining database access?
+
+##
+
+`(m) Any records or information supplied to the commission that is confidential in accordance with any provision of the general statutes shall remain confidential while in the custody of the commission and shall not be disclosed. Any penalty for the disclosure of such records or information . . . shall apply in the same manner and to the same extent to the members, staff and authorized representatives of the commission.`
+
+[Conn. Gen. Stat. § 54-300](https://www.cga.ct.gov/current/pub/chap_970.htm#sec_54-300).
+
+## {.larger}
+
+6. How have other State sentencing commissions with similar statutory authority handled such issues?
+
+##
+
+![State Sentencing Commissions with Plausible Database Authority](state_map_2023_fig.png){#fig-statemap2023}
+
+## Method
+
+- Interviews (about 1 hour each)
+  - Stakeholders in CT
+  - Stakeholders in Other States with Sentencing Commission database authority
+- Snowball Sampling
+- Confidential and de-identified.
+
+Report of Findings to the CT Sentencing Commission.
+
+## Questions and Contact
+
+![](ORCID.png){fig-align="left"}
+

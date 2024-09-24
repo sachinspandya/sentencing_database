@@ -1,0 +1,122 @@
+---
+title: "Challenges to Building Criminal Sentencing Databases for State Sentencing Commissions"
+author:
+- name: Sachin S. Pandya
+  orcid: 0000-0001-7387-1307
+- name:  Vaughn J. Crichlow
+  orcid: 0000-0001-7515-0095
+- name: Alex Tsarkov
+abstract: > 
+  This is a DRAFT research design for this project.
+---
+
+# Introduction
+
+This study uses stakeholder interviews to identify the technical and socio-legal challenges faced by State sentencing commissions and similar agencies in the United States in developing and maintaining a criminal sentencing database of its own to be used for evidence-based criminal-justice policy analysis. The Connecticut Sentencing Commission's experience is the primary case study along with stakeholder interviews concerning the experience of sentencing commissions with parallel database authority in New Mexico, North Carolina, Nevada, and other States.
+
+# Background
+
+Although the Connecticut Legislature in 2010 required the Connecticut Sentencing Commission to build a "state-wide sentencing database in collaboration with state and local agencies," Conn. Gen. Stat. § 54-300(f), in 2023, over a decade later, no such database exists. The Commission has largely relied on bespoke case-by-case data sharing agreements with the Connecticut Judicial Branch and other government agencies This approach has created long delays for Commission research projects and inhibits exploratory data analysis by Commission staff.
+
+Motivated by this case, this study uses stakeholder interviews to identify the technical and socio-legal challenges faced by State sentencing commissions and similar agencies in the United States in developing and maintaining a criminal sentencing database of its own to be used for evidence-based criminal-justice policy analysis. Because the motivating case is the Connecticut Sentencing Commission's experience, the focus is how that Commission can learn from criminal-justice stakeholders in Connecticut about how to build its own sentencing database as well as from stakeholders in other States with active sentencing commission databases. 
+
+```{r}
+#| label: tbl-states
+#| tbl-cap: "Sentencing Commissions with Database Authority, 2023"
+
+load_path <- here::here("data-raw","state_sentencing_commissions_2023-09-11.xlsx")
+d <- readxl::read_excel(load_path) |>
+	 janitor::clean_names()
+
+library(dplyr)
+d <- d |>
+     filter(is.na(db_auth)==FALSE) |>
+     select(state, statute, db_auth)
+
+dtot <- nrow(d)
+
+d |>
+     filter(db_auth != 0) |>
+     arrange(db_auth, state) |>
+     knitr::kable(format = "html")
+
+```
+
+To date, `r dtot - 1` States and the District of Columbia have sentencing commissions. Of these, four have express statutory power or duty to develop and maintain their own sentencing databases, or words to that effect for purposes of data analysis (db_auth = 1). Some additional States have statutory authority which might be read to confer such authority implicitly (db_auth = 2).
+ 
+Yet, despite calls for better data on what criminal courts do [e.g., @Bergeron2020], there is little prior research on how these State sentencing commissions built and maintain their databases, including the socio-legal and technical challenges. Prior research has been limited mostly to describing data collection practices by sentencing commissions in a few cases [e.g. @Bergstrom2021], as well as case studies of localities using data dashboards to track and reduce the incidence of crime [@Russo2018; @Tapia2020; see also @Casto2020]. Prior research also concerns data collection by and data competence of prosecutor offices and public criminal defense organizations [e.g. @Garrett2023; @Warren2022]. These studies, however, do not focus on the challenges that a multi-stakeholder government body like a sentencing commission faces in compiling criminal-justice data already collected by other government agencies.
+
+Prior research has examined information-sharing among government agencies in non-criminal-justice settings [@Graham2016; for a review, see @Yang2011]. In a survey of government in criminal justice and public health, @GilGarcia2016 found [X]. See also @GascoHernandez; Caldarulo2024.
+
+In this study, we use semi-structured interviews with key stakeholders in Connecticut and the other States with a sentencing commission authorized to develop its own sentencing database.
+
+Here are our research questions:
+
+1. What do criminal-justice stakeholders believe are the socio-legal and technical obstacles that sentencing commissions face in 
+
+	a. developing long-term data-sharing agreements with other government agencies that regularly collect and compile relevant data?;
+	b. regularly and securely obtaining updated information from those agencies?;
+	c. building a database user interface to enable exploratory data analysis by commission staff?;
+	d. securing skilled personnel (e.g., statisticians, computer scientists) to help commission staff use the sentencing database to answer particular research questions posed by commission members or other criminal-justice stakeholders?
+
+2. How have other jurisdictions with sentencing commissions overcome, or have failed to overcome, such obstacles?
+
+# Method
+
+Following standard practice for qualitative interview studies, we will (1) develop semi-structured interview guides (one for Connecticut stakeholders, another for stakeholders in other States); and (2) practice some combination of induction and literature- or theory-based coding of interview notes or transcripts, possibly using qualitative data analysis software [@Deterding2021].
+
+## Sample Size 
+
+We expect to reach data saturation with about 30 interviews in total for both stakeholders within Connecticut and in the other relevant jurisdictions. In interview studies, adequate sample size typically turns on when data saturation occurs, i.e., the point beyond which additional data (interviews) reveal no new information about the theoretical estimands of interest. In their review of interview studies with post facto tests (carried out after a study was complete) to check data saturation, @Hennink2022 found that most studies reached saturation between 9 and 17 interviews, with a mean of 12–13 interviews, despite using different approaches to assess saturation.
+
+## Recruitment
+
+For interviews, the two participant populations (stakeholders in Connecticut, stakeholders in other States with sentencing commissions) will be recruited using purposive and snowball sampling. We will initially identify individuals based on their likelihood of having relevant information (purposive); we will complement this initial selection by relying on contacts provided to us by our interviewees (snowball).
+
+We will recruit potential interviewees primarily via email or phone. We will obtain names and contact information for potential interviewees through existing and future contacts, as well as through secondary research (i.e., review of media or secondary literature). If we do not have contact information for an individual, we will try to locate this information through publicly available sources. We may also invite people to participate in the study who we meet initially in person.
+
+We will notify potential interviewees about the research via an Information Sheet (attached) that will explain the aims of the research, their role in it, and the steps we are taking to respect their privacy. We will give participants as much time as they need to consider participation. If we initially contact someone via email, we will provide the information sheet at the time of recruitment as well as the contact information of the PIs; the interview will be scheduled at a time at the interviewee’s convenience. If the initial contact is through phone or in-person contact, we will ask the individual for an email address so that we can send the information sheet and contact information prior to the interview and we will then schedule the interview at a time of the interviewee’s convenience. If we are not able to send an email ahead of time, we will provide the information sheet and contact information at the start of the interview, review it together with the interviewee, and encourage the interviewee to take as much time as they need to consider their participation in the study and to ask questions if needed. 
+
+Potential interviewees will be asked to participate in semi-structured interviews to be conducted either in-person or remotely (via Webex or Teams).  If the interviewee permits, the interview will also be audio-recorded. Both the consent process as well as the in-person interviews will take place in a quiet, private location that the participant chooses. 
+
+Interviews will typically last sixty minutes. If an individual consents and a longer interview is needed to explore a topic fully, we may extend the interview to 90 minutes. If the interviewee requests, they may also provide written answers to the interview questions.
+
+Participants may be removed from the study if they request removal at any point in the process.
+
+# Harms/ Benefits of Participation
+
+## Risks
+
+Participant risks will be minimal. We will be mostly interviewing professionals who will understand the nature of the project and can make informed decisions about whether to participate. Participants are also free to terminate their participation at any time. The only inconvenience may be the time it takes to complete the study. 
+
+## Benefits
+
+We expect no direct benefits for individuals who participate in this study. For benefits to society, the results of the study will be used to inform policy makers (e.g. the Connecticut Sentencing Commission) on how best to design and maintain a sentencing database so as to improve criminal-justice policy-making.
+
+## Privacy and Confidentiality
+
+Notes from interviews, audio files, and other research records will be de-identified and coded with a sequential 3 digit number that reflects the number of people interviewed. The master key that links names and codes will be saved in a Word document saved on UConn’s secure OneDrive. The file will be edited directly in OneDrive. Only the PIs will have access to this document. Interview notes and other research documents will be kept either on OneDrive or on the hard drives of password protected computers accessible only to the PIs and key personnel. Any hard copy notes will be de-identified and stored in a locked location at all times. 
+
+De-identified audio files may be shared for transcription purposes. Audio files will be retained for five years. De-identified digital and hard copy transcriptions and other research records will be retained indefinitely. The digital master key linking names and codes will be destroyed after five years. Each PI will retain one hard copy of the master key in their research files kept secure in their offices.
+
+### Dissemination
+
+The researchers may publish their findings in a report to the Connecticut Sentencing Commission and/or a refereed academic journal. Information will be presented in summary format and interviewees may be quoted. No identifiable information will be shared with individuals who are not part of the research team.
+
+### Consent
+
+Consent will be obtained orally before the interview begins but after the individual has been provided the Information Sheet from this study.
+
+If necessary, we seek waiver of a requirement (if any) of _signed_ consent so as to minimize the risk of breach of confidentiality. A signed consent form would be the only non-secure record linking the participant's identity to the research. Relying on oral consent removes this problem. This research does _not_ include any activities that would require signed consent in a non-research setting.
+
+# Anticipated Study Time Frame
+
+- Interviews: September 2023-February 2024.
+- Data analysis and writing up of results: March 2024-August 2024.
+- Publish findings in a report to the Connecticut Sentencing Commission and/or a refereed journal: Fall 2024-Spring 2025.
+
+<!--
+
+Complete SAC List: https://www.jrsa.org/sac/saclist.html
+
+-->

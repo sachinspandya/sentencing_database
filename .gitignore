@@ -1,0 +1,13 @@
+.Rproj.user
+
+/.quarto/
+/data-raw
+/IRB
+/recruitment
+/_output
+
+.Rhistory
+.Rdata
+.httr-oauth
+.DS_Store
+.quarto

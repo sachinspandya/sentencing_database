@@ -1,0 +1,36 @@
+project:
+  output-dir: _output
+
+author:
+- name: Sachin S. Pandya
+  orcid: 0000-0001-7387-1307
+  affiliation:
+    - name: University of Connecticut
+      department: School of Law
+      address: 65 Elizabeth Street
+      city: Hartford
+      country: USA
+      postal-code: 06105
+  email: sachin.pandya@uconn.edu
+
+bibliography: references.bib
+#number-sections: true
+#toc: true
+lang: en
+date: last-modified
+
+format:
+  html:
+    embed-resources: true
+  #pdf: default
+  #docx: default
+
+copyright:
+  holder: Sachin S. Pandya
+  date: 2023
+
+execute:
+  echo: false
+  warning: false
+  message: false
+  freeze: false

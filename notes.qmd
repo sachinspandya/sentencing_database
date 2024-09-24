@@ -1,0 +1,25 @@
+---
+title: "sentencing_database"
+---
+
+# Background and Project Notes
+
+## ommission's authority with respect to building and keeping up a sentencing database. 
+
+When the Legislature created the Sentencing Commission in 2010, it provided: “The commission shall: . . . (1) Facilitate the development and maintenance of a state-wide sentencing database in collaboration with state and local agencies, using existing state databases or resources where appropriate.” Conn. Gen. Stat. § 54-300(f). That Legislature added that "upon completing the development of the state-wide sentencing database . . . the commission shall review criminal justice legislation as requested and as resources allow." Conn. Gen. Stat. 54-300(g).  As I understand it, over a decade later, no such Commission-facilitated “state-wide sentencing database” currently exists.
+
+
+1. Reading subsections (f)(1) and (g) together, I infer that the Legislature intended not only that the Commission may build and keep up a sentencing database, but that it must do so. If such database were purely optional, it would have made little sense for the Legislature to have made that database (via the "upon completing" clause) a condition precedent to subsection (g)'s conferral of Commission authority to "review criminal justice legislation."  Am I reading this properly?
+
+2. Section 54-300(i)-(k) seems to independently authorize the indefinite transfer of data from other government agencies to a Commission sentencing database:
+
+>(i) The commission shall have access to confidential information received by sentencing courts and the Board of Pardons and Paroles including, but not limited to, arrest data, criminal history records, medical records and other nonconviction information.
+
+>(j) The commission shall obtain full and complete information with respect to programs and other activities and operations of the state that relate to the criminal sentencing structure in the state.
+
+>(k) The commission may request any office, department, board, commission or other agency of the state or any political subdivision of the state to supply such records, information and assistance as may be necessary or appropriate in order for the commission to carry out its duties. Each officer or employee of such office, department, board, commission or other agency of the state or any political subdivision of the state is authorized and directed to cooperate with the commission and to furnish such records, information and assistance.
+
+These subsections imply stronger authority to get data than a researcher who would seek such data by way of a Memorandum of Agreement (MOA) with a criminal justice agency for sharing "nonconviction information," Conn. Gen. Stat. § 54-142m; or for data access to "records maintained by the Judicial Department," Conn. Gen. Stat. § 51-36a.  In particular, in subsection (k), the Legislature both authorizes and directs other government agencies "to furnish such records, information and assistance."  I read this to strip the requested agency of any authority to deny an otherwise valid Commission request for data to add to its sentencing database. Am I reading section 54-300 properly?
+
+3. In 2014, the Legislature required the Commission to post data on provisional pardons and certificates of rehabilitation received from the Board of Pardons and Paroles and from CSSD. The Legislature added that the Commission "shall update such data on its Internet web site annually thereafter." Conn. Gen. Stat. § 54-301(a).  Can you send me the URL for that annually-updated data?  I can't seem to find it on the Commission website.
+

@@ -1,0 +1,38 @@
+Dear Judge Bozzuto,
+
+We'd like to meet to discuss the idea of creating a data pipeline from the Judicial Branch to the Sentencing Commission so as to create a "state-wide sentencing database" as required by Conn. Gen. Stat. § 54-300(f)(1).
+
+When the Legislature created the Sentencing Commission in 2010, it required the Commission to "[f]acilitate the development and maintenance of a state-wide sentencing database in collaboration with state and local agencies, using existing state databases or resources where appropriate.” Conn. Gen. Stat. § 54-300(f)(1). The Legislature expressly gave the Commission access to a wide scope of criminal justice data, including "confidential information received by sentencing courts" such as "arrest data, criminal history records, medical records and other nonconviction information." Id. § 54-300(i). To that end, "[e]ach office or employee" of any State or local agency "is authorized _and directed_ to cooperate with the commission and to furnish such records, information and assistance." Id. § 54-300(k) (emphasis added).
+
+The problem: Over a decade later, contrary to the Legislature's directive, no Commission-facilitated "state-wide sentencing database" currently exists. Instead, Commission has to ask for relevant data from the Judicial Branch and other criminal justice agencies on a project-by-project basis. As a result, for every study it undertakes, the Commission has to incur high transaction costs and delays to secure the data it needs. This case-by-case data collection undermines the Commission's mission and runs contrary to the Legislature's vision of a Commission that regularly uses a "state-wide sentencing database" to evaulate criminal justice issues.
+
+The idea: We propose a long-term agreement between the Commission and the Judicial Branch to create a data pipeline to the Commission.  Under this agreement, the Judicial Branch would provide the Commission with regularly-updated Connecticut Superior Court administrative data currently under the control of the Branch's Court Operations Division.  This data (CRMVS) contains relevant information on criminal defendants, arrests, charges, case dispositions, and sentences imposed. 
+
+With this data pipeline, the Commission could build the state-wide sentencing database the 2010 Legislature had in mind. In turn, the Commission could more quickly and efficiently trace how criminal statutes are implemented and how much a statutory change affected, or is likely to affect, what defendants, attorneys, and courts do.  Here are five illustrative examples:
+
+	1. Public Act 21-102, § 25, enacted the largest change to eligibility for sentence modification since the early 1980s. Without a sentencing database, the Commission cannot easily and regularly trace how much these changes affected sentence-modification requests and grant rates. 
+
+	2. Public Act 15-84 expanded parole eligibility for individuals who committed a crime before the age of 18. In 2023, the Commission recommended extending such eligibility to individuals who offended before the age of twenty-one. With a sentencing database, the Commission could better estimate the number of people currently eligible for parole because of PA 15-84 and how much that number would increase if such eligibility's age threshold went up. 
+
+	3. Special Act 19-17 (enacted 2019) requires the Commission to conduct a study on racial, ethnic, gendered, and socioeconomic disparities in pretrial and sentencing outcomes. Years later, the Commission is still collecting data for this project. A sentencing database using CRMVS would have given the Commission a considerable head start in this data collection effort. 
+
+	4. For its current study of felony murder in Connecticut, the Commission has no information on the number of arrests, convictions and sentencing outcomes of people charged with felony murder. Access to regularly-updated CRMVS data would provide that information. 
+
+	5. In 2023, the Hate Crimes Advisory Council asked the Commission to review Connecticut hate crime statutes and compare them to other states’ statutes as well as federal law. With a sentencing database, the Commission could easily determine basic facts such as how many people are charged and convicted for hate crimes in the State, and the effect, if any, of recent statutory changes to hate-crime laws, on charging behavior and sentences imposed.
+
+We envision that creating the data pipeline will entail nothing more onerous than what the Judicial Branch typically does when it provides data access to "records maintained by the Judicial Department" under Conn. Gen. Stat. § 51-36a. As in those cases, data access under our proposal would be restricted to Commission personnel as otherwise required by statute. Conn. Gen. Stat. § 54-300(m).  We look forward to meeting with you to hear your thoughts about this idea.
+
+Sincerely,
+
+Alex Tsarov
+
+
+
+
+
+
+
+
+
+
+
