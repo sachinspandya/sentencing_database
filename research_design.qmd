@@ -5,7 +5,6 @@ author:
   orcid: 0000-0001-7387-1307
 - name:  Vaughn J. Crichlow
   orcid: 0000-0001-7515-0095
-- name: Alex Tsarkov
 abstract: > 
   This is a DRAFT research design for this project.
 ---
